@@ -63,8 +63,8 @@ void CreateArray (int [] Numbers)
 
 void Print (int[] point)
 {
-  int digit = point.Length;
-  for (int count = 0; count < digit; count++)
+  int value = point.Length;
+  for (int count = 0; count < value; count++)
   {
       System.Console.Write(point[count] + " ");
   }
